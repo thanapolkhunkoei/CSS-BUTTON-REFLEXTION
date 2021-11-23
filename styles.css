@@ -1,0 +1,68 @@
+html, body {
+    background-color: rgb(139, 156, 189);
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: burlywood;
+}
+.header-link {
+    color: rgb(12, 1, 1);
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.main-box {
+    max-width: 500px;
+    margin: auto;
+}
+
+.box {
+    background-color: cornsilk;
+    margin: 20px;
+    padding: 15px;
+
+}
+
+.image {
+    width: 100%;
+}
+
+.link {
+    background-color: darkgoldenrod;
+    color: black;
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    background-color: coral;
+    text-align: center;
+    padding: 30px;
+}
+
+.wrapper {
+    display: table;
+    width: 100%;
+  }
+  
+  .left {
+    width: 20%;
+    background: #cccccc;
+    display: table-cell;
+  }
+  
+  .main {
+    width: 80%;
+    background: gray;
+    display: inline;
+  }
+  
+  .main > textarea {
+    width: inherit;
+  }
